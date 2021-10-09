@@ -1,0 +1,118 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(/abs-1850926_960_720.webp);
+  height: 635px;
+  color: white;
+  font-family: "Baloo Bhaina 2", cursive;
+  width: 1000px;
+}
+.Left {
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: absolute;
+  left: 9px;
+  top: 7px;
+  width: 129px;
+}
+
+.Left img {
+  width: 32px;
+  filter: invert(100%);
+  display: inline-table;
+}
+
+.Left div {
+  /* text-align: center; */
+  display: inline-block;
+  font-size: 13px;
+}
+
+.Midile {
+  display: block;
+  /* border: 2px solid green; */
+  margin: -14px 199px auto;
+  width: 46%;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+.navbar li {
+  display: inline;
+  font-size: 15px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 3px 10px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: rgb(199, 199, 199);
+}
+
+.Right {
+  /* border: 2px solid yellow; */
+  display: inline-block;
+  position: absolute;
+  right: -5px;
+  top: 5px;
+}
+
+.btn {
+  margin: 0px 10px;
+  width: 88px;
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 2px 10px;
+  border: 2px solid rgb(87, 87, 87);
+  border-radius: 15px;
+  font-size: 11px;
+  cursor: pointer;
+  font-family: "Baloo Bhaina 2", cursive;
+}
+.btn:hover {
+  color: rgb(238, 236, 236);
+  background: rgb(41, 41, 41);
+  font-size: 10px;
+}
+
+.Contaner {
+  border: 2px solid white;
+  margin: 60px 30px;
+  padding: 5px 20px;
+  width: 35%;
+  border-radius: 45px 2px;
+}
+
+.form-fill input {
+  text-align: center;
+  display: block;
+  width: 90%;
+  padding: 2px;
+  background: black;
+  border: 2px solid white;
+  margin: 6px auto;
+  font-style: italic;
+  border-radius: 0px 42px;
+  color: white;
+  font-size: 12px;
+  font-family: "Baloo Bhaina 2", cursive;
+}
+.Contaner h1 {
+  text-align: center;
+}
+
+.Contaner button {
+  display: block;
+  width: 20%;
+  margin: 6px 252px auto;
+  border-radius: 43px 9px;
+}
